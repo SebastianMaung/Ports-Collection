@@ -1,0 +1,19 @@
+CC = i586-mingw32msvc-gcc
+CXX = i586-mingw32msvc-g++
+RM = rm -f
+
+CFLAGS = -Wall -O2 -I/usr/i586-mingw32msvc/include/SDL -DMINGW -DBUILD_DLL
+CXXFLAGS = $(CFLAGS)
+LDFLAGS = -lmingw32  -lSDLmain -lSDL -lSDL_mixer -mwindows
+
+OBJS = ram.o util_snd.o function.o dconv.o scene.o title.o init.o act.o option.o ending.o logo.o demo.o stageselect.o gfx/SDL_rotozoom.o
+
+SOURCES = $(patsubst %.o, %.c, $(OBJS))
+
+all: RotateGear.exe
+
+RotateGear.exe: $(OBJS)
+	$(CXX) -o $@ $(OBJS) $(LDFLAGS)
+	
+clean:
+	rm *.o ./gfx/*.o

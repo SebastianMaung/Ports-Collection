@@ -1,0 +1,143 @@
+[act.c:1076]: (style) Expression is always false because 'else if' condition matches previous condition at line 1029.
+[act.c:4282] -> [act.c:4297]: (performance) Variable 'by' is reassigned a value before the old one has been used.
+[act.c:5832] -> [act.c:5833]: (performance) Variable 'rg' is reassigned a value before the old one has been used.
+[act.c:328]: (style) The scope of the variable 'exit_code' can be reduced.
+[act.c:358]: (style) The scope of the variable 'wk' can be reduced.
+[act.c:794]: (style) The scope of the variable 'old_x' can be reduced.
+[act.c:1623]: (style) The scope of the variable 'bx' can be reduced.
+[act.c:1692]: (style) The scope of the variable 'bx' can be reduced.
+[act.c:3715]: (style) The scope of the variable 'wk' can be reduced.
+[act.c:4175]: (style) The scope of the variable 'k' can be reduced.
+[act.c:4177]: (style) The scope of the variable 'rg' can be reduced.
+[act.c:6517]: (style) The scope of the variable 'k' can be reduced.
+[act.c:6586]: (style) The scope of the variable 'f' can be reduced.
+[act.c:6587]: (style) The scope of the variable 'b' can be reduced.
+[act.c:1102]: (style) Variable 'houkou' is assigned a value that is never used.
+[act.c:1338]: (style) Variable 'py2' is assigned a value that is never used.
+[act.c:1386]: (style) Variable 'px' is assigned a value that is never used.
+[act.c:1660]: (style) Variable 'bx' is assigned a value that is never used.
+[act.c:1726]: (style) Variable 'bx' is assigned a value that is never used.
+[act.c:1967]: (style) Variable 'arm_muki' is assigned a value that is never used.
+[act.c:2202]: (style) Variable 'x' is assigned a value that is never used.
+[act.c:2203]: (style) Variable 'y' is assigned a value that is never used.
+[act.c:2204]: (style) Variable 'b_x' is assigned a value that is never used.
+[act.c:2205]: (style) Variable 'b_y' is assigned a value that is never used.
+[act.c:2206]: (style) Variable 'i' is assigned a value that is never used.
+[act.c:2287]: (style) Variable 'i' is assigned a value that is never used.
+[act.c:2333]: (style) Variable 'i' is assigned a value that is never used.
+[act.c:3318]: (style) Variable 'px' is assigned a value that is never used.
+[act.c:3319]: (style) Variable 'py' is assigned a value that is never used.
+[act.c:3324]: (style) Variable 'x' is assigned a value that is never used.
+[act.c:3321]: (style) Variable 'dx' is assigned a value that is never used.
+[act.c:3322]: (style) Variable 'dy' is assigned a value that is never used.
+[act.c:3350]: (style) Variable 'width' is assigned a value that is never used.
+[act.c:4281]: (style) Variable 'bx' is assigned a value that is never used.
+[act.c:4388]: (style) Variable 'wbx' is assigned a value that is never used.
+[act.c:4907]: (style) Variable 'py2' is assigned a value that is never used.
+[act.c:5360]: (style) Variable 'all' is assigned a value that is never used.
+[act.c:5343]: (style) Variable 'is_tukami' is assigned a value that is never used.
+[act.c:6004]: (style) Variable 'py2' is assigned a value that is never used.
+[act.c:6275]: (style) Variable 'py2' is assigned a value that is never used.
+[act.c:6594]: (style) Variable 'f' is assigned a value that is never used.
+[act.c:6595]: (style) Variable 'b' is assigned a value that is never used.
+[act.c:6736]: (style) Variable 'input_keys' is assigned a value that is never used.
+[act.c:6745]: (style) Variable 'd_num' is assigned a value that is never used.
+[act.c:6754]: (style) Variable 'd_num' is assigned a value that is never used.
+[act.c:6772]: (style) Variable 'd_num' is assigned a value that is never used.
+[act.c:461]: (error) Array 'map_data[20]' accessed at index 20, which is out of bounds.
+[act.c:2524]: (error) Array 'map_data[20]' accessed at index 20, which is out of bounds.
+[act.c:2713]: (error) Array 'map_data[20]' accessed at index 20, which is out of bounds.
+[act.c:2885]: (error) Array 'map_data[20]' accessed at index 20, which is out of bounds.
+[act.c:413]: (error) Array 'item_wk[500]' accessed at index 500, which is out of bounds.
+[dconv.c:313]: (style) The scope of the variable 'seed' can be reduced.
+[dconv.c:314]: (style) The scope of the variable 'tmp' can be reduced.
+[demo.c:30]: (style) The scope of the variable 'exit_code' can be reduced.
+[ending.c:34]: (style) The scope of the variable 'exit_code' can be reduced.
+[function.c:269]: (style) Assignment of function parameter has no effect outside the function.
+[function.c:311]: (style) Assignment of function parameter has no effect outside the function.
+[function.c:354] -> [function.c:356]: (performance) Variable 'sp' is reassigned a value before the old one has been used.
+[function.c:129]: (style) The scope of the variable 'size' can be reduced.
+[function.c:160]: (style) The scope of the variable 'size' can be reduced.
+[function.c:199]: (style) The scope of the variable 'size' can be reduced.
+[function.c:224]: (style) The scope of the variable 'size' can be reduced.
+[function.c:324]: (style) The scope of the variable 'sp' can be reduced.
+[function.c:326]: (style) The scope of the variable 's2' can be reduced.
+[function.c:560]: (style) The scope of the variable 'pal' can be reduced.
+[function.c:577]: (style) The scope of the variable 'pal' can be reduced.
+[function.c:1286]: (style) The scope of the variable 'blt_num' can be reduced.
+[function.c:1339]: (style) The scope of the variable 'blt_num' can be reduced.
+[function.c:147]: (style) Variable 'size' is assigned a value that is never used.
+[function.c:182]: (style) Variable 'size' is assigned a value that is never used.
+[function.c:211]: (style) Variable 'size' is assigned a value that is never used.
+[function.c:236]: (style) Variable 'size' is assigned a value that is never used.
+[function.c:410]: (error) Resource leak: fp
+[function.c:380]: (error) Resource leak: fp
+[function.c:285]: (style) The scope of the variable 'temp' can be reduced.
+[gfx/SDL_rotozoom.c:391] -> [gfx/SDL_rotozoom.c:392]: (performance) Variable 'sp' is reassigned a value before the old one has been used.
+[gfx/SDL_rotozoom.c:30]: (style) The scope of the variable 'ex' can be reduced.
+[gfx/SDL_rotozoom.c:30]: (style) The scope of the variable 'ey' can be reduced.
+[gfx/SDL_rotozoom.c:30]: (style) The scope of the variable 't1' can be reduced.
+[gfx/SDL_rotozoom.c:30]: (style) The scope of the variable 't2' can be reduced.
+[gfx/SDL_rotozoom.c:31]: (style) The scope of the variable 'c00' can be reduced.
+[gfx/SDL_rotozoom.c:31]: (style) The scope of the variable 'c01' can be reduced.
+[gfx/SDL_rotozoom.c:31]: (style) The scope of the variable 'c11' can be reduced.
+[gfx/SDL_rotozoom.c:337]: (style) The scope of the variable 't1' can be reduced.
+[gfx/SDL_rotozoom.c:337]: (style) The scope of the variable 't2' can be reduced.
+[gfx/SDL_rotozoom.c:337]: (style) The scope of the variable 'ex' can be reduced.
+[gfx/SDL_rotozoom.c:337]: (style) The scope of the variable 'ey' can be reduced.
+[gfx/SDL_rotozoom.c:494]: (style) The scope of the variable 'dy' can be reduced.
+[gfx/SDL_rotozoom.c:494]: (style) The scope of the variable 'sdx' can be reduced.
+[gfx/SDL_rotozoom.c:494]: (style) The scope of the variable 'sdy' can be reduced.
+[gfx/SDL_rotozoom.c:614]: (style) The scope of the variable 'sanglezoominv' can be reduced.
+[gfx/SDL_rotozoom.c:614]: (style) The scope of the variable 'canglezoominv' can be reduced.
+[gfx/SDL_rotozoom.c:615]: (style) The scope of the variable 'dstwidthhalf' can be reduced.
+[gfx/SDL_rotozoom.c:615]: (style) The scope of the variable 'dstheighthalf' can be reduced.
+[gfx/SDL_rotozoom.c:869]: (style) The scope of the variable 'i' can be reduced.
+[gfx/SDL_rotozoom.c:505]: (style) Variable 'sw' is assigned a value that is never used.
+[gfx/SDL_rotozoom.c:506]: (style) Variable 'sh' is assigned a value that is never used.
+[init.c:253]: (style) The scope of the variable 'i' can be reduced.
+[init.c:77]: (style) Unused variable: char_work
+[init.c:78]: (style) Unused variable: strlen
+[init.c:78]: (style) The scope of the variable 'strlen' can be reduced.
+[init.c:114]: (error) Buffer overrun possible for long command line arguments.
+[init.c:130] -> [init.c:142]: (performance) Variable 'flags' is reassigned a value before the old one has been used.
+[logo.c:31]: (style) The scope of the variable 'exit_code' can be reduced.
+[option.c:44]: (style) The scope of the variable 'exit_code' can be reduced.
+[option.c:452]: (style) The scope of the variable 'i' can be reduced.
+[option.c:352]: (style) Variable 'load_rc' is assigned a value that is never used.
+[stageselect.c:38]: (style) The scope of the variable 'exit_code' can be reduced.
+[stageselect.c:242]: (style) The scope of the variable 'wk' can be reduced.
+[title.c:54]: (style) The scope of the variable 'exit_code' can be reduced.
+[title.c:473]: (style) The scope of the variable 'wk' can be reduced.
+[dconv.c:294]: (style) The function 'DCNVinitRand' is never used.
+[dconv.c:299]: (style) The function 'DCNVshuffleDim' is never used.
+[act.c:6791]: (style) The function 'GetKyori' is never used.
+[function.c:382]: (style) The function 'LogFileWrite' is never used.
+[function.c:590]: (style) The function 'SaveBmp' is never used.
+[function.c:508]: (style) The function 'SetColorKeyPos' is never used.
+[act.c:3599]: (style) The function 'bgm_midi' is never used.
+[act.c:5783]: (style) The function 'boss_dead' is never used.
+[act.c:1754]: (style) The function 'cleaer_ankr' is never used.
+[act.c:5301]: (style) The function 'e_hp' is never used.
+[act.c:5809]: (style) The function 'e_shot_set' is never used.
+[act.c:5232]: (style) The function 'enm_set2' is never used.
+[act.c:5907]: (style) The function 'enmjmp' is never used.
+[act.c:5114]: (style) The function 'item_event' is never used.
+[act.c:4347]: (style) The function 'item_sonzai' is never used.
+[act.c:6160]: (style) The function 'kane_set' is never used.
+[act.c:6500]: (style) The function 'labs' is never used.
+[act.c:3336]: (style) The function 'minimap_disp' is never used.
+[act.c:6514]: (style) The function 'p_mgc_set' is never used.
+[act.c:4002]: (style) The function 'p_shot_set' is never used.
+[gfx/SDL_rotozoom.c:593]: (style) The function 'rotozoomSurfaceSize' is never used.
+[gfx/SDL_rotozoom.c:584]: (style) The function 'rotozoomSurfaceSizeXY' is never used.
+[util_snd.c:168]: (style) The function 'soundIsPlayBgm' is never used.
+[util_snd.c:345]: (style) The function 'soundIsPlaySe' is never used.
+[util_snd.c:119]: (style) The function 'soundLoadBuffer2' is never used.
+[util_snd.c:214]: (style) The function 'soundLoadPlayBgm' is never used.
+[util_snd.c:225]: (style) The function 'soundPlayFadeFlag' is never used.
+[util_snd.c:281]: (style) The function 'soundSetVolumeMaster' is never used.
+[util_snd.c:153]: (style) The function 'soundStopBgmPlaying' is never used.
+[act.c:2804]: (style) The function 'wait_scl3' is never used.
+[gfx/SDL_rotozoom.c:863]: (style) The function 'zoomSurface' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)

@@ -1,0 +1,19 @@
+CC = gcc
+CXX = g++
+RM = rm -f
+
+CFLAGS = -Wall -O0 `sdl-config --cflags` -Igfx -DHOME_PATH -g
+CXXFLAGS = $(CFLAGS)
+LDFLAGS = -lSDL -lSDL_mixer -lm
+
+OBJS = ram.o util_snd.o function.o dconv.o scene.o title.o init.o act.o option.o ending.o logo.o demo.o stageselect.o ./gfx/SDL_rotozoom.o
+
+SOURCES = $(patsubst %.o, %.c, $(OBJS))
+
+all: RotateGear
+
+RotateGear: $(OBJS)
+	$(CXX) -o $@ $(OBJS) $(LDFLAGS)
+	
+clean:
+	rm *.o ./gfx/*.o

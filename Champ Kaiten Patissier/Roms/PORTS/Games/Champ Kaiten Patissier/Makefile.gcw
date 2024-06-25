@@ -1,0 +1,19 @@
+CC = /usr/bin/arm-linux-gnueabihf-gcc
+CXX = /usr/bin/arm-linux-gnueabihf-g++
+RM = rm -f
+
+CFLAGS = -Wall -O2 `sdl-config --cflags` -Igfx -DHOME_PATH
+CXXFLAGS = $(CFLAGS)
+LDFLAGS = -lSDL -lSDL_mixer -lm  -L/usr/lib/arm-linux-gnueabihf
+
+OBJS = ram.o util_snd.o function.o dconv.o scene.o title.o init.o act.o option.o ending.o logo.o demo.o stageselect.o ./gfx/SDL_rotozoom.o
+
+SOURCES = $(patsubst %.o, %.c, $(OBJS))
+
+all: RotateGear
+
+RotateGear: $(OBJS)
+	$(CXX) -o $@ $(OBJS) $(LDFLAGS)
+	
+clean:
+	rm *.o ./gfx/*.o

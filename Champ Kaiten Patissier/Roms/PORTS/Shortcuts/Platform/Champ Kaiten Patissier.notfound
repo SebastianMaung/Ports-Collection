@@ -1,0 +1,19 @@
+#!/bin/sh
+# Standalone Ports Script Template
+
+# main configuration :
+GameName="Champ Kaiten Patissier (Port)"
+GameDir="Champ Kaiten Patissier"
+GameExecutable="RotateGear"
+GameDataFile=""
+
+# additional configuration
+KillAudioserver=0
+PerformanceMode=0
+
+# specific to this port :
+Arguments=""
+
+# running command line :
+export LD_LIBRARY_PATH="/mnt/SDCARD/Roms/PORTS/Games/Champ Kaiten Patissier/../Champ Kaiten Patissier:$LD_LIBRARY_PATH"
+"/mnt/SDCARD/Emu/PORTS/launch_standalone.sh" "$GameName" "$GameDir" "$GameExecutable" "$Arguments" "$GameDataFile" "$KillAudioserver" "$PerformanceMode"
